@@ -1,0 +1,10 @@
+[package]
+name = "rouxinold-mc-exporter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = [ "full" ] }
+axum = "0.7"
+mc-query = "1.1"
+dotenvy = "0.15"
